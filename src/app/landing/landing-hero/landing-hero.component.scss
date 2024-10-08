@@ -1,6 +1,9 @@
-.hero-container {
+:host {
+  display: block;
+  height: 73vh;
   background-color: #F2F0F1 !important;
 }
+
 .hero-heading {
   font-size: 5rem;
 }
