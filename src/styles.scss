@@ -1,1 +1,53 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'Inter';
+  src: url('../public/assets/fonts/Inter.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+$font-family-sans-serif: Inter;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  color: #000;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+
+
+
+
+
+/* CUSTOM BOOTSTRAP GOES HERE */
+$secondary: #bbb;
+$dark: #000;
+
+
+// Spacing
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 8,
+  8: $spacer * 12,
+  9: $spacer * 14,
+  10: $spacer * 16
+) !default;
+$enable-negative-margins: true;
+
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';

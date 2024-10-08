@@ -1,0 +1,70 @@
+.search-form {
+  position: relative;
+}
+.search-btn {
+  position: absolute;
+  top: .7rem;
+  left: 0;
+}
+.cart-icon {
+  cursor: pointer;
+  font-size: 2.4rem;
+}
+input::placeholder {
+  font-size: 1.2rem;
+}
+.navbar-brand {
+  font-size: 3rem;
+}
+.navbar-nav {
+  font-size: 1.75rem;
+}
+.search-form {
+  width: 50%;
+}
+.search-icon {
+  font-size: 2rem;
+}
+.navbar-menu {
+  margin-left: 15%;
+}
+@media(max-width: 75em) {
+  .navbar-brand {
+    font-size: 2.4rem;
+  }
+  .navbar-nav {
+    font-size: 1.6rem;
+  }
+  .search-form {
+    width: 40%;
+  }
+  .search-icon {
+    font-size: 1.6rem;
+  }
+
+}
+@media(max-width: 62em) {
+  .search-form {
+    width: 30%;
+  }
+}
+
+@media (max-width: 48em) {
+  input::placeholder {
+    font-size: .9rem;
+  }
+  .search-icon {
+    font-size: 1.6rem;
+  }
+  .navbar-menu {
+    margin-left: 10%;
+  }
+
+}
+
+@media (max-width: 36em) {
+  input::placeholder {
+    font-size: .7rem;
+  }
+
+}
