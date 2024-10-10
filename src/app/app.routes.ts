@@ -12,5 +12,4 @@ export const routes: Routes = [
     component: StoreComponent,
     loadChildren: () => import('./store/store.routes').then(mod => mod.storeRoutes),
   }
-
 ];

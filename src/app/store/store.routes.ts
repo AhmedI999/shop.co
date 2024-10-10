@@ -7,4 +7,5 @@ export const storeRoutes: Routes = [
     component: StoreComponent,
   },
 
+
 ]

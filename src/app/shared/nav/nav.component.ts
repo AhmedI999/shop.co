@@ -29,16 +29,15 @@ export class NavComponent implements OnInit {
   isLandingPage = input.required<boolean>();
 
   ngOnInit(): void {
-    if (!this.isLandingPage()) this.isNavbarCollapsed = false;
+    if (!this.isLandingPage) this.isNavbarCollapsed = false;
   }
 
-  get isLandingPageActive (){
-    return this.isLandingPage();
+  get isLandingPageActive() {
+    return this.isLandingPage;
   }
-
 
   onMenuClicked() {
     this.isNavbarCollapsed = !this.isNavbarCollapsed;
-
   }
 }
+
